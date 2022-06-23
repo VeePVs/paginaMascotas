@@ -165,3 +165,45 @@ html {
 .grilla-container .final {
     margin-right: 15px;
 }
+
+/* 
+    Comienza los estilos del container-information
+*/
+
+.container-information {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+    gap: 20px;
+    justify-content: center;
+}
+
+.container-information div {
+    width: 100%;
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #ffab2d;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    height: auto;
+    min-width: 200px;
+    box-shadow: 0 4px 8px rgba(50, 40, 12, 0.31);
+    border-radius: 17px;
+    background-color: rgb(255, 253, 244);
+    
+}
+
+.container-information div img {
+    width: 40vw;
+    max-width: 150px;
+    min-width: 128px;
+}
+
+.container-information div p {
+    margin-top: 5px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
