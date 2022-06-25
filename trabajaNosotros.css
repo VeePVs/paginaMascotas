@@ -116,6 +116,7 @@ html {
 
 .container-information div {
     width: 80%;
+    max-width: 900px;
     margin: 0 auto;
     display: block;
     font-size: 1.6rem;
@@ -147,7 +148,29 @@ html {
     margin-left: 20px;
 }
 
+.formulario-grid {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 250px));
+}
 
+.formulario-grid section input {
+    margin: 10px 0;
+    height: 25px;
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid rgb(206, 206, 206);
+}
+
+.container-information div button {
+    background-color: #ffb13d;
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 0;
+}
 
 .footer {
     align-content: center;
