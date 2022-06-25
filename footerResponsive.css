@@ -1,0 +1,18 @@
+.iconSocial {
+    height: 40px;
+    width: 40px;
+}
+
+.iconSocial:hover {
+    height: 45px;
+    width: 45px;
+}
+
+.footer div {
+    font-size: 1.6rem;
+}
+
+.footer .footer-huella {
+    height: 70px;
+    margin-top: 10px;
+}
