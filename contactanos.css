@@ -102,19 +102,13 @@ html {
     width: 100%;
     min-width: 10px;
     height: 30vh;
-    background-image: url('./img/fotoGrande.png');
+    background-image: url('./img/mascotitas.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.container-information {
-    width: 100%;
-    display: inline-block;
-    justify-content: center;
-}
-
-.container-information div {
+.container-information .contacto {
     width: 80%;
     max-width: 900px;
     margin: 0 auto;
@@ -132,44 +126,14 @@ html {
     background-color: rgb(255, 253, 244);
 }
 
-.container-information div p {
+.container-information .contacto p {
     margin-top: 5px;
     font-size: 1.5rem;
     font-weight: 500;
     color: rgb(0, 0, 0);
 }
 
-.container-information div ul {
-    text-align: justify;
-}
-
-.container-information div ul li {
-    margin-left: 20px;
-}
-
-.formulario-grid {
-    justify-content: center;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 250px));
-}
-
-.formulario-grid section input {
-    margin: 10px 0;
-    height: 25px;
-    width: 80%;
-    border-radius: 10px;
-    border: 1px solid rgb(206, 206, 206);
-}
-
-.container-information div button {
-    background-color: #ffb13d;
-    width: 80px;
-    height: 30px;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-    border-radius: 10px;
-    border: 0;
-}
+/*Footer*/
 
 .footer {
     align-content: center;
