@@ -263,3 +263,9 @@ html {
     width: 35px;
     transition: 1s;
 }
+
+@media (min-width: 1300px) {
+    .grilla-container {
+        justify-content: center;
+    }
+}
